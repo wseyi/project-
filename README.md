@@ -39,7 +39,7 @@ When it has been created you should see output information like this.
 
 ![Alt text](Screenshot_2023-11-02_17-57-29.png)
 
-To terminate all sevices, use `terraform desroy` and reply yes when promted.
+To terminate all sevices, use `terraform destroy` and reply yes when promted.
 
 When successful you should have a similar feedback to this.
 
