@@ -45,5 +45,24 @@ When successful you should have a similar feedback to this.
 
 ![Alt text](Screenshot_2023-11-02_18-08-30.png)
 
+## Having two environments
+
+There are two files names "dev.tfvars" and "prod.tfvars".
+The purpose of these files is to create two seperate environments for the project. 
+
+### To use these file
+
+- `terraform plan/apply -var-file=dev.tfvars`
+- `terraform plan/apply -var-file=prod.tfvars`
+
+### Automatic use of files 
+
+Rename the file you want to be automatically used.
+
+Example
+
+**dev.tfvars ==> dev.auto.tfvar**
+
+**prod.tfvars ==> prod.auto.tfvars**
 
 
